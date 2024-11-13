@@ -144,7 +144,7 @@ section .topic {
 }
 
 #hero {
-    background-image: url('snow-leopard.jpg'); /* Snow leopard background image */
+    /* background-image: url('snow-leopard.jpg'); */
     background-size: cover;
     background-position: center;
     height: 100vh;

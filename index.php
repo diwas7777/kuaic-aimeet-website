@@ -33,7 +33,7 @@
         <div class="hero-content">
             <h1>Welcome to AI Meet</h1>
             <p>Join us for an exciting event on Artificial Intelligence</p>
-            <button class="cool-btn">Learn More</button>
+            <a href="#events"><button class="cool-btn">Learn More</button></a>
         </div>
     </section>
 
@@ -152,8 +152,9 @@
                                 <a href="#"><img src="./assets/img/logo.png" class="img-fluid" alt="logo"></a>
                             </div>
                             <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                <p style="text-align: justify;">AI MEET is Nepal’s first university-level students-led AI event, organized by the 
+                                    joint collaborative effort of the Kathmandu University Artificial Intelligence Club
+                                    (KUAIC) and the Department of Artificial Intelligence (DoAI).</p>
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
