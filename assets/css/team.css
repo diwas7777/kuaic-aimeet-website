@@ -1,0 +1,135 @@
+.our-team {
+    text-align: center;
+}
+
+.our-team .team_img {
+    position: relative;
+    overflow: hidden;
+    width: 200px; /* Set fixed width */
+    height: 200px; /* Set fixed height */
+    margin: 0 auto; /* Center the image container */
+    border-radius: 5px; /* Make the image container circular */
+}
+
+.our-team .team_img:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.our-team:hover .team_img:after {
+    bottom: 0;
+}
+
+.our-team img {
+    width: 100%;
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+.our-team .social {
+    padding: 5px 0; /* Decrease top and bottom padding */
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: -100%;
+    right: 5px; /* Adjust right positioning */
+    background: #f76c5e;
+    border-radius: 0 0 10px 10px; /* Decrease border radius */
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.our-team:hover .social {
+    top: 0;
+}
+
+.our-team .social li a {
+    display: block;
+    padding: 10px; /* Decrease padding for links */
+    font-size: 12px; /* Decrease font size */
+    color: #fff;
+}
+
+.our-team:hover .social li a:hover {
+    color: #2a4284;
+}
+
+.our-team .team-content {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.our-team .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a4284;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+    position: relative;
+}
+
+.our-team .title:before {
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: #27ae61;
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+    margin-right: 9px;
+    transition-duration: 0.25s;
+}
+
+.our-team .title:after {
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: #27ae61;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: 9px;
+    transition-duration: 0.25s;
+}
+
+.our-team:hover .title:before,
+.our-team:hover .title:after {
+    width: 50px;
+}
+
+.our-team .post {
+    display: inline-block;
+    font-size: 15px;
+    color: #f76c5e;
+    text-transform: capitalize;
+}
+
+.our-team .post:before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #27ae61;
+    margin: 0 auto;
+    position: relative;
+    top: -13px;
+}
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+    }
+
+    /* Optionally adjust image size for smaller screens */
+    .our-team .team_img {
+        width: 150px; /* Example for smaller screens */
+        height: 150px; /* Example for smaller screens */
+    }
+}

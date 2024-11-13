@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "doYouWantToShow": "yes",
+      "name": "Diwas Shrestha",
+      "position": "Secretary",
+      "image": "./assets/img/dummy.webp",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 2,
+      "doYouWantToShow": "yes",
+      "name": "Diwas Shrestha",
+      "position": "Secretary",
+      "image": "./assets/img/dummy.webp",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 3,
+      "doYouWantToShow": "yes",
+      "name": "Diwas Shrestha",
+      "position": "Secretary",
+      "image": "./assets/img/dummy.webp",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 4,
+      "doYouWantToShow": "yes",
+      "name": "Diwas Shrestha",
+      "position": "Secretary",
+      "image": "./assets/img/dummy.webp",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 5,
+      "doYouWantToShow": "yes",
+      "name": "Diwas Shrestha",
+      "position": "Secretary",
+      "image": "./assets/img/dummy.webp",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 6,
+      "doYouWantToShow": "yes",
+      "name": "Diwas Shrestha",
+      "position": "Secretary",
+      "image": "./assets/img/dummy.webp",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    }
+  ]
