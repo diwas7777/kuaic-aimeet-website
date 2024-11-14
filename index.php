@@ -40,37 +40,8 @@
 <!-- Events Section -->
 <section id="events">
     <h2 class="topic">Upcoming Events</h2>
-    <div class="content-wrapper">
-  
-        <div class="news-card">
-          <a href="https://aiclub.ku.edu.np/reg4aicrusade" class="news-card__card-link"></a>
-          <img src="./assets/img/aicrusade.jpg" alt="AI Crusade" class="news-card__image">
-          <div class="news-card__text-wrapper">
-            <h2 class="news-card__title">AICrusade 2024</h2>
-            <div class="news-card__post-date">November 13, 2024</div>
-            <div class="news-card__details-wrapper">
-              <p class="news-card__excerpt">Join the AICrusade 2024 Hackathon, an extraordinary event powered by the Kathmandu University Artificial Intelligence Club (KUAIC) and also a pre-event of AI MEET 2024&hellip;</p>
-              <a href="https://aiclub.ku.edu.np/reg4aicrusade" class="news-card__read-more">Register <i class="fas fa-long-arrow-alt-right"></i></a>
-            </div>
-          </div>
-        </div>
-      
-        <?php
-        for ($i = 0; $i < 5; $i++) {
-            echo '<div class="news-card">
-            <a href="#" class="news-card__card-link"></a>
-            <img src="./assets/img/coming_soon.jpg" alt="Coming Soon Banner" class="news-card__image">
-            <div class="news-card__text-wrapper">
-                <h2 class="news-card__title">Coming Soon</h2>
-                <div class="news-card__post-date">Jan 29, 2018</div>
-                <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Stay Update to know more about the upcoming events&hellip;</p>
-                <a href="#" class="news-card__read-more">Register <i class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-            </div>
-            </div>';
-        }
-        ?>
+    <div class="content-wrapper" id="event-data">
+        <!-- Content will be serverd here by event-details script -->
       
       </div>
 </section>
@@ -223,5 +194,6 @@
 
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/team-members.js"></script>
+    <script src="./assets/js/event-details.js"></script>
 </body>
 </html>

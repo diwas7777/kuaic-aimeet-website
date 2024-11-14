@@ -1,0 +1,80 @@
+[
+    {
+      "id": 1,
+      "doYouWantToShow": "yes",
+      "title": "AICrusade 2024",
+      "description": "Join the AICrusade 2024 Hackathon, an extraordinary event powered by the Kathmandu University Artificial Intelligence Club (KUAIC) and also a pre-event of AI MEET 2024",
+      "link": {
+        "banner": "https://aiclub.ku.edu.np/reg4aicrusade",
+        "button": "https://aiclub.ku.edu.np/reg4aicrusade"
+      },
+      "image": "./assets/img/aicrusade.jpg",
+      "button_name": "Register",
+      "post_date": "November 14, 2024"
+    },
+    {
+        "id": 2,
+        "doYouWantToShow": "yes",
+        "title": "Coming Soon",
+        "description": "Stay Update to know more about the upcoming events",
+        "link": {
+          "banner": "#",
+          "button": "#"
+        },
+        "image": "./assets/img/coming_soon.jpg",
+        "button_name": "Coming Soon",
+        "post_date": "November 14, 2024"
+      },
+      {
+          "id": 3,
+          "doYouWantToShow": "yes",
+          "title": "Coming Soon",
+          "description": "Stay Update to know more about the upcoming events",
+          "link": {
+            "banner": "#",
+            "button": "#"
+          },
+          "image": "./assets/img/coming_soon.jpg",
+          "button_name": "Coming Soon",
+          "post_date": "November 14, 2024"
+        },
+        {
+            "id": 4,
+            "doYouWantToShow": "yes",
+            "title": "Coming Soon",
+            "description": "Stay Update to know more about the upcoming events",
+            "link": {
+              "banner": "#",
+              "button": "#"
+            },
+            "image": "./assets/img/coming_soon.jpg",
+            "button_name": "Coming Soon",
+            "post_date": "November 14, 2024"
+          },
+          {
+              "id": 5,
+              "doYouWantToShow": "yes",
+              "title": "Coming Soon",
+              "description": "Stay Update to know more about the upcoming events",
+              "link": {
+                "banner": "#",
+                "button": "#"
+              },
+              "image": "./assets/img/coming_soon.jpg",
+              "button_name": "Coming Soon",
+              "post_date": "November 14, 2024"
+            },
+            {
+                "id": 6,
+                "doYouWantToShow": "yes",
+                "title": "Coming Soon",
+                "description": "Stay Update to know more about the upcoming events",
+                "link": {
+                  "banner": "#",
+                  "button": "#"
+                },
+                "image": "./assets/img/coming_soon.jpg",
+                "button_name": "Coming Soon",
+                "post_date": "November 14, 2024"
+              }
+]
