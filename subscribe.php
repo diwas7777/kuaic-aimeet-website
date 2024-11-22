@@ -1,6 +1,21 @@
 <?php
-$allowed_origin = 'https://aiclub@ku.edu.np'; 
-$allowed_referer = 'https://aiclub@ku.edu.np';
+$allowed_origin = 'https://aiclub.ku.edu.np'; 
+$allowed_referer = 'https://aiclub.ku.edu.np/aimeet/'; 
+// Debug: Log actual origin and referer
+file_put_contents('debug_log.txt', print_r($_SERVER, true), FILE_APPEND);
+
+if (isset($_SERVER['HTTP_ORIGIN'])) {
+    file_put_contents('debug_log.txt', "Origin: " . $_SERVER['HTTP_ORIGIN'] . "\n", FILE_APPEND);
+} else {
+    file_put_contents('debug_log.txt', "No HTTP_ORIGIN header found.\n", FILE_APPEND);
+}
+
+if (isset($_SERVER['HTTP_REFERER'])) {
+    file_put_contents('debug_log.txt', "Referer: " . $_SERVER['HTTP_REFERER'] . "\n", FILE_APPEND);
+} else {
+    file_put_contents('debug_log.txt', "No HTTP_REFERER header found.\n", FILE_APPEND);
+}
+
 
 if (isset($_SERVER['HTTP_ORIGIN']) && $_SERVER['HTTP_ORIGIN'] !== $allowed_origin) {
     die("Unauthorized access - invalid origin.");
