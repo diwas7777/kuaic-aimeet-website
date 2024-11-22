@@ -15,7 +15,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L]
 
 # Block access to sensitive files
-<FilesMatch "\.(htaccess|htpasswd|env|ini|log|sh|bak|sql|php~)$">
+<FilesMatch "\.(htaccess|htpasswd|env|ini|log|sh|bak|sql|php~|txt)$">
     Order allow,deny
     Deny from all
 </FilesMatch>

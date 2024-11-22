@@ -140,10 +140,11 @@
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                <a href="https://www.facebook.com/kuaicaimeet"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://www.instagram.com/kuai_meet/"><i class="fab fa-instagram instagram-bg"></i></a>
+                                <a href="https://www.linkedin.com/company/kuaic"><i class="fab fa-linkedin-in linkedin-bg"></i></a>
                             </div>
+                            
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
@@ -168,12 +169,16 @@
                             <div class="footer-text mb-25">
                                 <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                             </div>
+                            <!-- Subscription form in the footer section -->
                             <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                <form id="subscribe-form">
+                                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                                    <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                                 </form>
+                                <div id="message"></div> <!-- Message will be shown here -->
                             </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -206,6 +211,37 @@
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/team-members.js"></script>
     <script src="./assets/js/event-details.js"></script>
+    <!-- Include jQuery (You can also use vanilla JS, but jQuery simplifies AJAX handling) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+    // Handle form submission using AJAX
+    $(document).ready(function() {
+        $("#subscribe-form").submit(function(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+
+            var email = $("#email").val(); // Get the email value
+
+            $.ajax({
+                url: "subscribe.php", // PHP script that handles subscription
+                type: "POST",
+                data: { email: email },
+                dataType: "json", // Expect a JSON response
+                success: function(response) {
+                    if (response.status === "success") {
+                        $("#message").html("<p style='color: green;'>" + response.message + "</p>");
+                        $("#email").val(""); // Clear the email field
+                    } else {
+                        $("#message").html("<p style='color: red;'>" + response.message + "</p>");
+                    }
+                },
+                error: function() {
+                    $("#message").html("<p style='color: red;'>An error occurred. Please try again.</p>");
+                }
+            });
+        });
+    });
+    </script>
     <!-- <script src="./assets/js/background.js"></script> -->
 </body>
 </html>
