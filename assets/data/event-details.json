@@ -15,65 +15,65 @@
     {
         "id": 2,
         "doYouWantToShow": "yes",
-        "title": "Coming Soon",
-        "description": "Stay Update to know more about the upcoming events",
+        "title": "SheLITS",
+        "description": "She Leads, Inspires, Thrives (SheLITS) is a dynamic event dedicated to empowering young women and fostering a community of leaders, innovators, and change-makers.",
         "link": {
           "banner": "#",
           "button": "#"
         },
-        "image": "./assets/img/coming_soon.jpg",
+        "image": "./assets/img/shelits_banner.jpg",
         "button_name": "Coming Soon",
         "post_date": "November 14, 2024"
       },
       {
           "id": 3,
           "doYouWantToShow": "yes",
-          "title": "Coming Soon",
+          "title": "Panel Discussion",
           "description": "Stay Update to know more about the upcoming events",
           "link": {
             "banner": "#",
             "button": "#"
           },
-          "image": "./assets/img/coming_soon.jpg",
+          "image": "./assets/img/panel_discussion.png",
           "button_name": "Coming Soon",
           "post_date": "November 14, 2024"
         },
         {
             "id": 4,
             "doYouWantToShow": "yes",
-            "title": "Coming Soon",
+            "title": "Paper Discussion",
             "description": "Stay Update to know more about the upcoming events",
             "link": {
               "banner": "#",
               "button": "#"
             },
-            "image": "./assets/img/coming_soon.jpg",
+            "image": "./assets/img/paper_discussion.jpg",
             "button_name": "Coming Soon",
             "post_date": "November 14, 2024"
           },
           {
               "id": 5,
               "doYouWantToShow": "yes",
-              "title": "Coming Soon",
+              "title": "AI Community Meetup",
               "description": "Stay Update to know more about the upcoming events",
               "link": {
                 "banner": "#",
                 "button": "#"
               },
-              "image": "./assets/img/coming_soon.jpg",
+              "image": "./assets/img/ai_community_meetup.png",
               "button_name": "Coming Soon",
               "post_date": "November 14, 2024"
             },
             {
                 "id": 6,
                 "doYouWantToShow": "yes",
-                "title": "Coming Soon",
+                "title": "Ideathon",
                 "description": "Stay Update to know more about the upcoming events",
                 "link": {
                   "banner": "#",
                   "button": "#"
                 },
-                "image": "./assets/img/coming_soon.jpg",
+                "image": "./assets/img/ideathon.png",
                 "button_name": "Coming Soon",
                 "post_date": "November 14, 2024"
               }

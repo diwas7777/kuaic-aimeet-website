@@ -2,8 +2,8 @@
     {
       "id": 1,
       "doYouWantToShow": "yes",
-      "name": "Diwas Shrestha",
-      "position": "Secretary",
+      "name": "Pranjal Pokhrel",
+      "position": "AI Meet Coordinator",
       "image": "./assets/img/dummy.webp",
       "social": {
         "facebook": "#",
@@ -14,9 +14,9 @@
     {
       "id": 2,
       "doYouWantToShow": "yes",
-      "name": "Diwas Shrestha",
-      "position": "Secretary",
-      "image": "./assets/img/dummy.webp",
+      "name": "Siddhartha Devkota",
+      "position": "AICrusade Coordinator",
+      "image": "./assets/team/Siddhartha.jpeg",
       "social": {
         "facebook": "#",
         "github": "#",
@@ -26,9 +26,9 @@
     {
       "id": 3,
       "doYouWantToShow": "yes",
-      "name": "Diwas Shrestha",
-      "position": "Secretary",
-      "image": "./assets/img/dummy.webp",
+      "name": "Anjila Subedi",
+      "position": "Executive/Design Lead",
+      "image": "./assets/team/Anjila.jpg",
       "social": {
         "facebook": "#",
         "github": "#",
@@ -38,9 +38,9 @@
     {
       "id": 4,
       "doYouWantToShow": "yes",
-      "name": "Diwas Shrestha",
-      "position": "Secretary",
-      "image": "./assets/img/dummy.webp",
+      "name": "Sagun Rai",
+      "position": "VP/Marketing and Outreach Lead",
+      "image": "./assets/team/Sagun.png",
       "social": {
         "facebook": "#",
         "github": "#",
@@ -50,9 +50,9 @@
     {
       "id": 5,
       "doYouWantToShow": "yes",
-      "name": "Diwas Shrestha",
-      "position": "Secretary",
-      "image": "./assets/img/dummy.webp",
+      "name": "Bhawana Ojha",
+      "position": "Documentation Lead",
+      "image": "./assets/team/Bhawana.jpeg",
       "social": {
         "facebook": "#",
         "github": "#",
@@ -62,8 +62,140 @@
     {
       "id": 6,
       "doYouWantToShow": "yes",
-      "name": "Diwas Shrestha",
-      "position": "Secretary",
+      "name": "Tushar Parihast",
+      "position": "Stall Lead",
+      "image": "./assets/team/Tushar.png",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 7,
+      "doYouWantToShow": "yes",
+      "name": "Aagaman Bhattarai",
+      "position": "Judges and Mentor Lead",
+      "image": "./assets/img/dummy.webp",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 9,
+      "doYouWantToShow": "yes",
+      "name": "Shivam Kumar Gupta",
+      "position": "Sponsor Lead",
+      "image": "./assets/img/dummy.webp",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 10,
+      "doYouWantToShow": "yes",
+      "name": "Shivram Saud",
+      "position": "Logistics and Operation Lead",
+      "image": "./assets/team/shivram.jpg",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 11,
+      "doYouWantToShow": "yes",
+      "name": "Yajjyu Tuladhar",
+      "position": "Executive/Robo Soccer Lead",
+      "image": "./assets/team/Yajjyu.jpg",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100008862092959",
+        "github": "https://github.com/YAzz303",
+        "linkedin": "https://www.linkedin.com/in/yajjyu-tuladhar-8ba2a5252/"
+      }
+    },
+    {
+      "id": 12,
+      "doYouWantToShow": "yes",
+      "name": "Tishya Dhakal",
+      "position": "Social Media Lead",
+      "image": "./assets/team/Tishya.jpg",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 13,
+      "doYouWantToShow": "yes",
+      "name": "Vishes Marasini",
+      "position": "Technical Lead",
+      "image": "./assets/team/Bishesh.jpg",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 14,
+      "doYouWantToShow": "yes",
+      "name": "Melina Singh",
+      "position": "SheLITS EM",
+      "image": "./assets/team/Melina.jpg",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 15,
+      "doYouWantToShow": "yes",
+      "name": "Manasi Acharya",
+      "position": "Panel Discussion Lead",
+      "image": "./assets/team/Manasi.jpg",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 16,
+      "doYouWantToShow": "yes",
+      "name": "Shristii Koirala",
+      "position": "Talk Shows Moderator",
+      "image": "./assets/team/Shristi.jpg",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 17,
+      "doYouWantToShow": "yes",
+      "name": "Darwin Acharya",
+      "position": "Paper Discussion Lead",
+      "image": "./assets/team/Darwin.jpg",
+      "social": {
+        "facebook": "#",
+        "github": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 18,
+      "doYouWantToShow": "yes",
+      "name": "Ansan Rai",
+      "position": "Workshop Manager",
       "image": "./assets/img/dummy.webp",
       "social": {
         "facebook": "#",

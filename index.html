@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/team.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/event.css">
+    <link rel="stylesheet" href="./assets/css/background.css">
 </head>
 <body>
     <!-- Logo and Navbar -->
@@ -22,20 +23,29 @@
         <nav class="navbar">
             <a href="#">Home</a>
             <a href="#events">Events</a>
-            <a href="#timeline">Timeline</a>
+            <!-- <a href="#timeline">Timeline</a> -->
             <a href="#team">Team</a>
-            <a href="#contact">Contact</a>
+            <a href="mailto:aiclub@ku.edu.np">Contact</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Welcome to AI Meet</h1>
-            <p>Join us for an exciting event on Artificial Intelligence</p>
-            <a href="#events"><button class="cool-btn">Learn More</button></a>
+<!-- Hero Section with Background -->
+<section id="hero" style="background: url('./assets/img/mountain_1920_1080.jpg') no-repeat center center/cover;">
+    <div class="hero-background">
+        <!-- Clouds -->
+        <div class="clouds">
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
         </div>
-    </section>
+    </div>
+
+    <div class="hero-content">
+        <h1>Welcome to AI Meet</h1>
+        <p>Join us for an exciting event on Artificial Intelligence</p>
+        <a href="#events"><button class="cool-btn">Learn More</button></a>
+    </div>
+</section>
 
 <!-- Events Section -->
 <section id="events">
@@ -47,7 +57,7 @@
 </section>
 
     <!-- Timeline Section -->
-    <section id="timeline">
+    <!-- <section id="timeline">
         <h2 class="topic">Event Timeline</h2>
         <ul>
             <li>
@@ -67,7 +77,7 @@
                 <p>Panel Discussion</p>
             </li>
         </ul>
-    </section>
+    </section> -->
 
     <!-- Team Section -->
     <section id="team">
@@ -75,11 +85,12 @@
         <div class="Team">
             <div class="container">
                 <div class="row" id="team-data">
-                    <!-- Content will be shown here -->
+                    <!-- Team member cards will be dynamically added here -->
                 </div>
             </div>
         </div>
     </section>
+    
 
     <!-- Footer -->
     <footer class="footer-section">
@@ -195,5 +206,6 @@
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/team-members.js"></script>
     <script src="./assets/js/event-details.js"></script>
+    <!-- <script src="./assets/js/background.js"></script> -->
 </body>
 </html>
